@@ -23,7 +23,7 @@ jobs:
       - name: Get the latest release
         id: get_release
         run: |
-          RELEASES=$(curl -s "https://api.github.com/repos/filecoin-project/lotus/releases")
+          RELEASES=$(curl -s "https://api.github.com/repos/galargh/lotus/releases")
 
           get_latest_release() {
             local TAG_PREFIX=$1
